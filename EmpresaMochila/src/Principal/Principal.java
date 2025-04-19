@@ -161,11 +161,9 @@ public class Principal extends JFrame implements ActionListener {
 		ListaMochilas lm=new ListaMochilas();//creo un objeto de la clase
 		lm.setLocationRelativeTo(this);//ubico el jdialog encima del jframe
 		lm.setVisible(true);
-		
-		
 	}
-	protected void actionPerformedMntmVentas(ActionEvent e) {
-		
+	protected void actionPerformedMntmVentas(ActionEvent e)
+	{
 		Ventas ventas=new Ventas();
 		ventas.setLocationRelativeTo(this);
 		ventas.setVisible(true);
